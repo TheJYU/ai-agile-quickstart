@@ -23,7 +23,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    git config --global user.name "YourName"
    ```
 
-4. **Install BMAD Method**  
+4. **Install BMAD-Method**  
    ```bash
    npx bmad-method install
    ```
