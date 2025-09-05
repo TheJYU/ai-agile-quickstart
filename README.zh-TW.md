@@ -2,7 +2,7 @@
 
 🌐 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
-**[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** 是一個 AI 開發框架，就像一個 24/7 全天候在線的敏捷團隊——**分析師、專案經理、架構師、Scrum Master、開發人員、QA、產品負責人和使用者體驗專家**——隨時為你工作。
+**[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** 是一個 AI 開發框架，就像一個 24/7 全天候在線的敏捷團隊——**分析師、專案經理、架構師、Scrum Master、開發人員、QA、產品負責人和使用者體驗專家**——隨時為你效勞。
 
 本快速入門指南旨在幫助你在幾分鐘內完成 **Gemini CLI + BMAD** 的設定，而無需翻閱大量文件。
 
