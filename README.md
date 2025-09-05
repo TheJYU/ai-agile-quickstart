@@ -21,7 +21,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    ```bash
    npm install -g @google/gemini-cli @kayvan/markdown-tree-parser
    
-   # Replace YourName with your Git username
+   # Replace YourName with your name
    git config --global user.name "YourName"
    ```
 
@@ -99,4 +99,4 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
 
 ---
 
-**Repository:** [`ai-agile-quickstart`](https://github.com/TheJYU/ai-agile-quickstart)
+**GitHub Repository:** [`ai-agile-quickstart`](https://github.com/TheJYU/ai-agile-quickstart)
