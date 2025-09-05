@@ -1,4 +1,4 @@
-# 🚀 AI Agile Development Quickstart
+# 🚀 AI Agile Development Quickstart Guide
 
 🌐 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
