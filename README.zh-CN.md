@@ -1,4 +1,4 @@
-# 🚀 AI 敏捷开发快速入门
+# 🚀 AI 敏捷开发快速入门指南
 
 🌐 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
