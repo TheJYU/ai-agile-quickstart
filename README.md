@@ -1,10 +1,12 @@
-# 🚀 AI Agile Quickstart
+# 🚀 AI Agile Development Quickstart
 
-The **BMAD-METHOD** is an AI framework that works like an always‑on agile team — **Analyst, PM, Architect, Scrum Master, Developer, QA, Product Owner, and UX Expert** — working for you 24/7.
+🌐 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
+
+The **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** is an AI framework that works like an always‑on agile team — **Analyst, PM, Architect, Scrum Master, Developer, QA, Product Owner, and UX Expert** — working for you 24/7.
 
 This quick start guide is designed to help you set up **Gemini CLI + BMAD** in minutes, without needing to dig through the full documentation.
 
-💡 **Best part:** Anyone can use this to *vibe code* — **100% free**.
+💡 **Best part: 100% free** — Anyone can use this to *vibe code*.
 
 ## 📦 Setup
 
@@ -67,14 +69,14 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    *help
    ```
 
-3. Whenever you’re unsure what to do next, ask the **BMAD Orchestrator**, it will guide you step‑by‑step in building your project.
+3. Whenever you’re unsure what to do next, just ask the **BMAD Orchestrator**.
 
 ## 📋 Useful Commands & Keyboard Shortcuts for Gemini CLI
 
 ### **Commands**
 | Command | Description |
 |---------|-------------|
-| `/init` | Analyzes the current directory and generates a tailored context file. |
+| `/init` | Analyzes the current directory and generates a directory description file. |
 | `/chat` | Save a chat session for later (e.g., after reboot). |
 | `/memory` | Save important facts (e.g., preferred language). |
 | `/restore` | Roll back project to a checkpoint (requires `gemini --checkpointing`). |
@@ -88,7 +90,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl+O` | Toggle debug console. |
-| `Ctrl+S` | Print long responses without truncation. |
+| `Ctrl+S` | Toggle printing long responses without truncation. |
 | `Ctrl+T` | Toggle tool descriptions. |
 | `Ctrl+Y` | Toggle auto‑approval (YOLO mode). |
 | `Ctrl+X` | Open current input in Notepad. |
