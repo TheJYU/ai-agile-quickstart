@@ -21,7 +21,7 @@
    ```bash
    npm install -g @google/gemini-cli @kayvan/markdown-tree-parser
    
-   # 將 YourName 替換為你的 Git 使用者名稱
+   # 將 YourName 替換為你的名字
    git config --global user.name "YourName"
    ```
 
@@ -42,11 +42,11 @@
    - 選擇 **"Login with Google"** 並使用你的 Google 帳號登入。
 
 7. **更改回覆語言**  
-   - 讓 Gemini 用中文回覆
+   - 讓 Gemini 使用中文回覆
       ```bash
       /memory add Always respond in Traditional Chinese.
       ```
-   - 要撤銷此設定，編輯或刪除 Gemini CLI 的記憶檔案
+   - 如要撤銷此設定，可以編輯或刪除 Gemini CLI 的記憶檔案
       ```bash
       %userprofile%\.gemini\GEMINI.md
       ```
@@ -69,7 +69,7 @@
    *help
    ```
 
-3. 當你不確定下一步該做什麼時，詢問 **BMAD Orchestrator** 即可。
+3. 當你不確定下一步該做什麼時，找 **BMAD Orchestrator** 問問。
 
 ## 📋 Gemini CLI 常用指令與快捷鍵
 
@@ -99,4 +99,4 @@
 
 ---
 
-**倉庫：** [`ai-agile-quickstart`](https://github.com/TheJYU/ai-agile-quickstart)  
+**GitHub 倉庫：** [`ai-agile-quickstart`](https://github.com/TheJYU/ai-agile-quickstart)  
