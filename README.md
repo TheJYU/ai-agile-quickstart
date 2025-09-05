@@ -69,33 +69,33 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    *help
    ```
 
-3. Whenever you’re unsure what to do next, just ask the **BMAD Orchestrator**.
+3. Whenever you’re unsure what to do next, just ask the **BMAD Orchestrator**
 
 ## 📋 Useful Commands & Keyboard Shortcuts for Gemini CLI
 
 ### **Commands**
 | Command | Description |
 |---------|-------------|
-| `/init` | Analyzes the current directory and generates a directory description file. |
-| `/chat` | Save a chat session for later (e.g., after reboot). |
-| `/memory` | Save important facts (e.g., preferred language). |
-| `/restore` | Roll back project to a checkpoint (requires `gemini --checkpointing`). |
-| `/copy` | Copy the last response. |
-| `/help` | Display help information about Gemini CLI. |
-| `/settings` | Open Gemini CLI settings. |
-| `/stats` | Show statistics for the current session. |
-| `/corgi` | Toggle doggo. ▼(´ᴥ`)▼ |
+| `/init` | Analyzes the current directory and generates a directory description file |
+| `/chat` | Save a chat session for later (e.g., after reboot) |
+| `/memory` | Save important facts (e.g., preferred language) |
+| `/restore` | Roll back project to a checkpoint (requires `gemini --checkpointing`) |
+| `/copy` | Copy the last response |
+| `/help` | Display help information about Gemini CLI |
+| `/settings` | Open Gemini CLI settings |
+| `/stats` | Show statistics for the current session |
+| `/corgi` | Toggle doggo ▼(´ᴥ`)▼ |
 
 ### **Keyboard Shortcuts**
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+O` | Toggle debug console. |
-| `Ctrl+S` | Toggle printing long responses without truncation. |
-| `Ctrl+T` | Toggle tool descriptions. |
-| `Ctrl+Y` | Toggle auto‑approval (YOLO mode). |
-| `Ctrl+X` | Open current input in Notepad. |
-| `!` | Toggle shell mode (when input is empty). |
-| `\` + `Enter` | Insert a newline. |
+| `Ctrl+O` | Toggle debug console |
+| `Ctrl+S` | Toggle printing long responses without truncation |
+| `Ctrl+T` | Toggle tool descriptions |
+| `Ctrl+Y` | Toggle auto‑approval (YOLO mode) |
+| `Ctrl+X` | Open current input in Notepad |
+| `!` | Toggle shell mode (when input is empty) |
+| `\` + `Enter` | Insert a newline |
 
 ---
 
