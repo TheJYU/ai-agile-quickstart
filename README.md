@@ -2,7 +2,7 @@
 
 🌐 [English](README.md) | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
-The **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** is an AI framework that works like an always‑on agile team — **Analyst, PM, Architect, Scrum Master, Developer, QA, Product Owner, and UX Expert** — working for you 24/7.
+The **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** is an AI framework that turns your LLM into your personal agile development team — **Analyst, PM, Architect, Scrum Master, Developer, QA, Product Owner, and UX Expert** — working for you 24/7.
 
 This quick start guide is designed to help you set up **Gemini CLI + BMAD** in minutes, without needing to dig through the full documentation.
 
@@ -14,7 +14,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    - Example: `C:\projects\project_abc`
 
 2. **Install Node.js & Git**  
-   - Download [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/)
+   - Download and install [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/)
    - Direct link for Windows x64: [node-v22.19.0-x64.msi](https://nodejs.org/dist/v22.19.0/node-v22.19.0-x64.msi) and [Git-2.51.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe)
 
 3. **Install Gemini CLI, markdown-tree-parser & configure Git username for automatic checkpoints**  
@@ -30,7 +30,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    npx bmad-method install
    ```
    - When asked to **"Enter the full path to your project directory where BMad should be installed"**, provide your project folder created in **Step 1**.
-   - When asked **"Which IDE(s) do you want to configure?"**, select `Gemini CLI`.
+   - When asked **"Which IDE(s) do you want to configure?"**, press Space to select `Gemini CLI` then press Enter.
    - For all other prompts, simply press Enter to accept the default values.
 
 5. **Run Gemini CLI & enable automatic checkpoints**  
@@ -64,7 +64,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
       Teach me to use BMAD, I want to build a XXX app.
       ```
 
-2. At any time, you can view a list of available commands  
+2. At any time, you can view a list of available BMAD commands  
    ```bash
    *help
    ```
@@ -79,7 +79,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
 | `/init` | Analyzes the current directory and generates a directory description file |
 | `/chat` | Save a chat session for later (e.g., after reboot) |
 | `/memory` | Save important facts (e.g., preferred language) |
-| `/restore` | Roll back project to a checkpoint (requires `gemini --checkpointing`) |
+| `/restore` | Roll back project to an automatic checkpoint (requires `gemini --checkpointing`) |
 | `/copy` | Copy the last response |
 | `/help` | Display help information about Gemini CLI |
 | `/settings` | Open Gemini CLI settings |
