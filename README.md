@@ -4,7 +4,7 @@
 
 The **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** is an AI framework that turns your LLM into your personal agile development team — **Analyst, PM, Architect, Scrum Master, Developer, QA, Product Owner, and UX Expert** — working for you 24/7.
 
-This quick start guide is designed to help you set up **Gemini CLI + BMAD** in minutes, without needing to dig through the full documentation.
+This quick start guide is designed to help you set up **BMAD + Gemini CLI** in minutes, without needing to dig through the full documentation.
 
 💡 **Best part: 100% free** — Anyone can use this to *vibe code*.
 
@@ -17,7 +17,7 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    - Download and install [Node.js](https://nodejs.org/) and [Git](https://git-scm.com/)
    - Direct link for Windows x64: [node-v22.19.0-x64.msi](https://nodejs.org/dist/v22.19.0/node-v22.19.0-x64.msi) and [Git-2.51.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe)
 
-3. **Install Gemini CLI, markdown-tree-parser & configure Git username for automatic checkpoints**  
+3. **Install Gemini CLI, markdown-tree-parser & configure Git username for [automatic checkpoints](#commands)**  
    ```bash
    npm install -g @google/gemini-cli @kayvan/markdown-tree-parser
    
@@ -29,8 +29,8 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    ```bash
    npx bmad-method install
    ```
-   - When asked to **"Enter the full path to your project directory where BMad should be installed"**, provide your project folder created in **Step 1**.
-   - When asked **"Which IDE(s) do you want to configure?"**, press Space to select `Gemini CLI` then press Enter.
+   - When asked to `Enter the full path to your project directory where BMad should be installed`, provide your project folder created in **Step 1**.
+   - When asked `Which IDE(s) do you want to configure?`, press Space to select `Gemini CLI` then press Enter.
    - For all other prompts, simply press Enter to accept the default values.
 
 5. **Run Gemini CLI & enable automatic checkpoints**  
@@ -39,17 +39,14 @@ This quick start guide is designed to help you set up **Gemini CLI + BMAD** in m
    ```
 
 6. **Login to Gemini CLI**  
-   - Select **"Login with Google"** and sign in with your Google account.
+   - Select `Login with Google` and sign in with your Google account.
 
 7. **Change response language**  
    - To make Gemini respond in a different language
       ```bash
       /memory add Always respond in <language>.
       ```
-   - To undo this, edit or delete the Gemini CLI memory file
-      ```bash
-      %userprofile%\.gemini\GEMINI.md
-      ```
+   - To undo this, edit or delete the Gemini CLI memory file `%userprofile%\.gemini\GEMINI.md`
 
 ## 🛠 Usage
 
