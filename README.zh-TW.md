@@ -4,7 +4,7 @@
 
 **[BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)** 能將你的 LLM 打造成你專屬的敏捷開發團隊——**分析師、專案經理、架構師、Scrum Master、開發人員、QA、產品負責人和使用者體驗專家**——全天候為你效勞。
 
-本快速入門指南旨在幫助你在幾分鐘內完成 **Gemini CLI + BMAD** 的設定，而無需翻閱大量文件。
+本快速入門指南旨在幫助你在幾分鐘內完成 **BMAD + Gemini CLI** 的設定，而無需翻閱大量文件。
 
 💡 **最好的一點：完全免費**——任何人都可以用它來 *vibe code*。
 
@@ -17,7 +17,7 @@
    - 下載並安裝 [Node.js](https://nodejs.org/) 和 [Git](https://git-scm.com/)
    - Windows x64 直接下載連結：[node-v22.19.0-x64.msi](https://nodejs.org/dist/v22.19.0/node-v22.19.0-x64.msi) 和 [Git-2.51.0-64-bit.exe](https://github.com/git-for-windows/git/releases/download/v2.51.0.windows.1/Git-2.51.0-64-bit.exe)
 
-3. **安裝 Gemini CLI、markdown-tree-parser 並設定 Git 使用者名稱以啟用自動存檔點**  
+3. **安裝 Gemini CLI、markdown-tree-parser 並設定 Git 使用者名稱以啟用[自動存檔點](#指令)**  
    ```bash
    npm install -g @google/gemini-cli @kayvan/markdown-tree-parser
    
@@ -29,8 +29,8 @@
    ```bash
    npx bmad-method install
    ```
-   - 當提示 **"Enter the full path to your project directory where BMad should be installed"** 時，輸入你在 **步驟 1** 建立的專案資料夾路徑。
-   - 當提示 **"Which IDE(s) do you want to configure?"** 時，按空格選擇 `Gemini CLI` 後按回車。
+   - 當提示 `Enter the full path to your project directory where BMad should be installed` 時，輸入你在 **步驟 1** 建立的專案資料夾路徑。
+   - 當提示 `Which IDE(s) do you want to configure?` 時，按空格選擇 `Gemini CLI` 後按回車。
    - 其他提示直接按回車使用預設值。
 
 5. **執行 Gemini CLI 並啟用自動存檔點**  
@@ -39,17 +39,14 @@
    ```
 
 6. **登入 Gemini CLI**  
-   - 選擇 **"Login with Google"** 並使用你的 Google 帳號登入。
+   - 選擇 `Login with Google` 並使用你的 Google 帳號登入。
 
 7. **更改回覆語言**  
    - 讓 Gemini 使用中文回覆
       ```bash
       /memory add Always respond in Traditional Chinese.
       ```
-   - 如要撤銷此設定，可以編輯或刪除 Gemini CLI 的記憶檔案
-      ```bash
-      %userprofile%\.gemini\GEMINI.md
-      ```
+   - 如要撤銷此設定，可以編輯或刪除 Gemini CLI 的記憶檔案 `%userprofile%\.gemini\GEMINI.md`
 
 ## 🛠 使用方法
 
